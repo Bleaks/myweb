@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>测试</title>
+ <meta name="description" content="瞎几把搞">
+ <meta http-equiv="refresh" content="300">
+ <base href="http://www.baidu.com/" target="_top">
+ <style type="text/css" media="all">  <!--内部样式表，还有一个使用link外部引用-->
+p{color:yellow;}
+h1{color:red;}
+blockquote{color:gray;}
+pre{color:green;}
+body{background-color:gray;}
+body{opacity:1;}
+/*img{border-style:dotted solid double dashed ;} groove 3d凹槽边框 ridge 3d垄状 inset outset     inherit  规定从父类继承边框    */
+/*img{border-color:black; border-style:ridge; border-width:10px;}*/
+a{text-decoration:none;blink}
+table{border-color:blue;border-style:dotted;}
+thead{background-color:green;}
+tbody{background-color:;}
+tfoot{background-color:red;}
+</style>
+</head>
+<body background="http://tupian.qqjay.com/u/2013/1127/19_222949_17.jpg">
+<object data="http://player.youku.com/player.php/Type/Folder/Fid//Ob//sid/XMTQ0OTE3NzQ5Mg==/v.swf"></object>
+<a href="file://C:\Users\Administrator\Desktop\ym.mp4">play</a>
+<a href="http://player.youku.com/player.php/Type/Folder/Fid//Ob//sid/XMTQ0OTE3NzQ5Mg==/v.swf">Play a video file</a>
+<embed src='http://player.youku.com/player.php/Type/Folder/Fid//Ob//sid/XMTQ0OTE3NzQ5Mg==/v.swf' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' allowFullScreen='true' mode='transparent' type='application/x-shockwave-flash'></embed>
+
+<audio controls>
+<source src="file://C:\Users\Administrator\Desktop\nldj.mp3" type="audio/ogg">
+<source src="file://C:\Users\Administrator\Desktop\nldj.mp3" type="audio/mpeg">
+</audio>
+<video controls autoplay loop muted poster="http://img1.fjtv.net/material/news/img/640x/2015/05/201505261712463zbz.jpg?Ifwn" width="400"height="400"> <!--controls定义按钮控件是否可见.autoplay定义视频就绪后马上播放.loop循环播放.muted静音.poster定义视频预览图-->
+<source src="file://C:\Users\Administrator\Desktop\ym.mp4"type="video/mp4">
+你的浏览器不支持video标签
+</video>
+<embed sr="file://C:\Users\Administrator\Desktop\nldj.mp3" hidden="no" >
+<h1>字符实体 &nbsp&nbsp &nbsp 不 &nbsp &nbsp &nbsp &nbsp &nbsp 间 断 空 格</h1>
+<p><font size="10" color="deepred">a&#768 b&#769 c&#770 d&#771 &copy &#8364 &divide &times &lt &gt </font></p>
+<div style="text-align:center;">
+<a name="eye"><img src="file://C:\Users\Administrator\Desktop\eye.png"></a>
+</div>
+<iframe  src="http://www.baidu.com/"  name="baidu" width="100%" height="250px" frameborder="5"></iframe>
+<iframe src="http://y.qq.com/"  name="iframe_a" width="100%"></iframe>
+<p><a href="https://y.qq.com/portal/profile.html#" target="baidu" >RUNOOB.COM</a></p>
+<div id="container" style="width:1500px;">
+<div style="background-color:blue;text-align:center;"><h1>触动</h1>    </div>
+<button type="button" onclick="alert('鸡毛')">点个鸡毛</button>
+<input type="button" value="点个鸭毛"  onclick="alert('鸭毛')">
+<div style="text-align:right;"><form style="width:1500px;">
+账号：<input type="text">
+密码：<input type="password">
+</form>    
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+<input type="range" id="a" value="50">100
++<input type="number" id="b" value="50">
+=<output name="x" for="a b"></output>
+</form>
+<input list="DL"  type="text"></input>
+<datalist id="DL">
+<option>man</option>
+<option>woman</option>
+</datalist>
+<form>
+<label for="A">A</label>
+<input type="radio" id="A" name="sex" value="m"><br>
+<label for="B">B<label>
+<input type="radio" id="B" name="sex" value="female">
+</form> 
+<form>
+<input disabled type="checkbox">apple<br/>
+<input type="checkbox">pen<br/>
+<input type="checkbox">milk<br/>
+<input type="checkbox">water
+</form>
+<form name="input" action="file://C:/Users/Administrator/Desktop/test.html" method="get">
+Username: <input type="text" name="user">
+<input type="submit" value="Submit">
+</form> 
+<form>
+<select>
+<option>A</option>
+<option>B</option>
+<option selected>C</option>
+</select>
+</form>
+<textarea rows="10" cols="50">
+这是一个文本框
+</textarea>
+<input  type="button" value="Yes">
+<fieldset>
+<legend>personal infofmation</legend>
+what is your mame
+</fieldset>
+</div>
+<div style="text-align:center;">
+<a href="http://www.baidu.com/" target="_blank"  > <img border="1" width="500px" height="200px" src="https://www.baidu.com/img/bd_logo1.png" alt="图片  "></a>
+</div>
+<br/>
+<div id="ul"  style="float:left;height:350px;width:750px;background-color:red;">
+<br/><script>
+document.write("holle world")
+</script>
+<ul style="list-style-type:square"><!--三个值：disc 实心圆点 circle 空心圆点 square 方形点 -->
+<li>包子</li>
+<ul>
+<li>油条</li>
+<li>牛奶</li>
+</ul>
+<li>豆浆</li>
+<dl>
+<dt>coffee</dt>
+<dd>- black hot</dd>
+<dt>milk</dt>
+<dd>- white cold</dd>
+</dl>
+<ol type="A">
+<li>糖包子</li>
+<li>肉包子</li>
+<li>豆沙包</li>
+</ol>
+<ol start="7">
+<li>O</li>
+<li>M</li>
+<li>G</li>
+</ol>
+</div>
+<div  id="ol"   style="float:right;height:350px;width:750px;background-color:blue;">
+<table  border="1"  cellpadding="10">
+<caption>唐诗</caption>
+<colgroup>
+ <col span="2" style="background-color:red">
+ <col span="3" style="background-color:yellow"><!--只能在 <table> 元素之内，在任何一个 <caption> 元素之后，在任何一个 <thead>、<tbody>、<tfoot>、<tr> 元素之前使用 <colgroup> 标签。-->
+</colgroup>
+<th>静夜诗</th>
+<th colspan="4">李白</th>
+<tr> 
+<div  style="color:#000FF">            
+<td>床</td>
+<td>前</td>
+<td>明</td>
+<td>月</td>
+<td>光</td>>
+</div>
+</tr>
+<td>疑</td>
+<td>是</td>
+<td>地</td>
+<td>上</td>
+<td>霜</td>
+</table>
+<table border="1" style="border-color:red;" cellspacing="10"><!--单元格间距-->
+<thead>
+<tr>
+<th>静夜诗</th>
+<td>唐</td>
+<tr/>
+</thead>
+<tbody>
+<th rowspan="2">李白</th>
+<td>举头望明月</td>
+<tr>
+<td>低头思故乡</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td></td>
+<td>
+浪漫主义
+</td>
+</tr>
+</tfoot>
+</table>
+
+</div>
+<div style="float:left;width:1500px;height:270px;">
+<h1 id="2" ><!--align="justify" 两端对齐--> what's your name</h1>
+<p style="text-align:center;color:red;">my name's xxx
+<br/>my name's xx</p>
+<a href="http://xinshao7.qzone.qq.com/" style="text-decoration:none;"> <!--内联样式--> QQ空间</a><!--跳出框架-->
+<br/><br/><br/><a href="#1"><img src="https://img04.sogoucdn.com/net/a/04/link?url=http%3A%2F%2Fi04.pictn.sogoucdn.com%2Fd10fa9d9822e0e13&appid=122" height="50" width="50" border="2" alt="站内百度链接"><a> 
+<a href="#2">站内链接</a>
+</div>
+<div style="text-align:center;">
+<p><hr  color=black size=5 width=50% align="left">见过这么帅的分割线吗？</p><!--hr水平线标签及三个属性---->
+<h2><abbr title="高清无码">图片<abbr></h2>
+<p><img src="http://img02.sogoucdn.com/app/a/100520024/7a46a6353a8e0b33ed3f5e15bdde2091" width="104*4" height="142*4" style="float:left;">
+<img src="http://img04.sogoucdn.com/app/a/100520024/4b642e81cf3495ade9192496d10c7014" alt="美图" width="300" height="600" usemap="#meitumap"/><!--带可点击区域的图像映射-->
+<map name="meitumap">
+   <area href="http://www.baidu.com/" target="_blank" shape="rect" coords="0,0,300,200">
+  <area href="mercur.htm" shape="circ" target="_blank"  coords="150,300,100">
+  <area href="venus.htm" shape="poly" target="_blank" coords="150,400,0,600,300,600">
+  </map>
+<img border="3"  src="http://img01.sogoucdn.com/app/a/100520024/d6e3b226acd236324d1fad7195e4e2a5" width="104*4" height="142*4" style="float:right;">
+<p><cite>beatiful</cite> it's very beatiful</p>
+</div>
+<div style="text-align:center;">
+</p>
+<p><b>有</b><strong>美</strong><big>人</big><em>兮</em><i>见</i><small>之</small>不<sub>.</sub>忘<sup>.</sup>
+<pre><b><i>一  日  不  见</p>
+
+<bdo dir="rtl">思  之  如  狂</bdo></i></b></pre>
+<p>邓小平说：<q>不管白猫黑猫，能捉到老鼠的就是好猫。</q></p>
+<p>that <del>is</del><ins> all</ins></p>
+<code>一段电脑代码</code>
+<blockquote cite="http://www.jj59.com/jjart/390664.html"><!--没有浏览器能够正确的显示CITE属性-->
+But i donot speak english
+can you speak english
+</blockquote><!--长引用-->
+<a href="mailto:742772816@qq.com?subject=this%20is%20test&=hi boy target=_top">sent email</a>
+<!--cc为抄送对象 bcc定义暗送对象-->
+</div>
+<a href="file:///C:/Users/Administrator/Desktop/test.html#eye">点击返回顶部</a>
+<a href="file:///C:/Users/Administrator/Desktop/eye.png" target="view_window">dianji</a>
+<address align="right">writr to <a href="http://xinshao7.qzone.qq.com"><acronym title="QQ空间">蒋天生</acronym></a><br/>ExcuseMe</address>
+</div>
+</body>
+</html>
