@@ -7,10 +7,10 @@ myImage.onclick = function() {
     }else{
         myImage.setAttribute('width','70%');
     }
-	if(mySrc === '/bgimage1.jpg') {
-      myImage.setAttribute ('src','bgimage1.jpg');
+	if(mySrc === 'images/bgimage1.jpg') {
+      myImage.setAttribute ('src','images/bgimage2.jpg');
 	} else {
-	  myImage.setAttribute ('src','bgimage2.jpg');
+	  myImage.setAttribute ('src','images/bgimage1.jpg');
 	}
 }
 
